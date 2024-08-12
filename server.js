@@ -10,7 +10,7 @@ const port= process.env.PORT || 3000
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/library_management_system')
+mongoose.connect('mongodb+srv://aasif21ali:fahad123@librarymanagementsystem.tee7d.mongodb.net/')
 
 mongoose.connection.on('connected', () => {
     console.log('Mongoose connected to');
