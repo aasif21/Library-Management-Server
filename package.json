@@ -1,0 +1,19 @@
+{
+  "name": "library_management_system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node serber.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.3.1",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
